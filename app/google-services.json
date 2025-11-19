@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "218299414793",
+    "project_id": "escovacao-2d391",
+    "storage_bucket": "escovacao-2d391.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218299414793:android:bb68b9e4633e375cdfbbd8",
+        "android_client_info": {
+          "package_name": "com.app.escovacao"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "218299414793-ut7q5dfjh17kflqdq9urupb7s4vdrgeu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6i-_V40wIzUlQzgUZyI9K7ciTZLgdX4Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "218299414793-ut7q5dfjh17kflqdq9urupb7s4vdrgeu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

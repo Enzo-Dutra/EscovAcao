@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@color/cinza_claro"
+    tools:context=".ParabensFioActivity"> <ImageView
+    android:id="@+id/img_parabens_mascote"
+    android:layout_width="250dp"
+    android:layout_height="250dp"
+    android:src="@drawable/ic_mascote_feliz" /> <TextView
+    android:id="@+id/text_parabens_titulo"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Bom Trabalho!"
+    android:textSize="48sp"
+    android:textStyle="bold"
+    android:textColor="@color/verde_escuro"
+    android:layout_marginTop="24dp"/>
+
+    <TextView
+        android:id="@+id/text_parabens_subtitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contagem salva!"
+        android:textSize="28sp"
+        android:textColor="@color/turquesa"
+        android:layout_marginTop="8dp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/bt_parabens_continuar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/turquesa"
+        android:text="Continuar"
+        android:textSize="26sp"
+        android:layout_marginTop="48dp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"/>
+
+</LinearLayout>

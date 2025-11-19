@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/cinza_claro"
+    android:gravity="center_horizontal"
+    android:padding="24dp"
+    tools:context=".TimerActivity">
+
+    <ImageButton
+        android:id="@+id/bt_timer_voltar"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/ic_voltar"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="Voltar ao menu"
+        android:layout_gravity="start" />
+
+    <ImageView
+        android:id="@+id/img_timer_mascote"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/ic_mascote_feliz"
+        android:layout_marginTop="32dp"/>
+
+    <TextView
+        android:id="@+id/text_timer_contagem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2:00"
+        android:textSize="80sp"
+        android:textStyle="bold"
+        android:textColor="@color/verde_escuro"
+        android:layout_marginTop="32dp"/>
+
+    <Button
+        android:id="@+id/bt_timer_iniciar_pausar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/turquesa"
+        android:text="Iniciar"
+        android:textSize="26sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"/>
+
+    <Button
+        android:id="@+id/bt_timer_cancelar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF6B6B"
+        android:text="Cancelar"
+        android:textSize="26sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"/>
+
+</LinearLayout>

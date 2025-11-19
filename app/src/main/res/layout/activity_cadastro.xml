@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CadastroActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300sp"
+        android:background="@color/verde_escuro"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:text="Escov"
+            android:fontFamily="@font/serifdisplay_regular"
+            android:textSize="60sp"
+            android:layout_gravity="center_vertical" android:textAlignment="textEnd"
+            android:textColor="@color/cinza_claro"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ação"
+            android:fontFamily="@font/serifdisplay_italic"
+            android:textSize="60sp"
+            android:layout_gravity="center_vertical" android:textAlignment="textStart"
+            android:textColor="@color/white"
+            android:textStyle="italic"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="24dp">
+
+            <EditText
+                android:id="@+id/txtNomeCadastro" android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nome"
+                android:layout_marginTop="25sp"
+                android:textSize="24sp"
+                android:layout_marginRight="20sp"
+                android:layout_marginLeft="20sp"
+                android:drawableStart="@drawable/custom_nome_icon"
+                android:drawablePadding="12sp"
+                android:paddingStart="12sp"
+                android:paddingBottom="12sp"
+                android:paddingTop="12sp"
+                android:background="@drawable/custom_input"/>
+
+            <EditText
+                android:id="@+id/txtEmailCadastro" android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:layout_marginTop="15sp"
+                android:textSize="24sp"
+                android:layout_marginRight="20sp"
+                android:layout_marginLeft="20sp"
+                android:drawableStart="@drawable/custom_email_icon"
+                android:drawablePadding="12sp"
+                android:paddingStart="12sp"
+                android:paddingBottom="12sp"
+                android:paddingTop="12sp"
+                android:background="@drawable/custom_input"/>
+
+            <EditText
+                android:id="@+id/txtSenhaCadastro" android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Senha"
+                android:layout_marginTop="15sp"
+                android:textSize="24sp"
+                android:inputType="textPassword"
+                android:layout_marginRight="20sp"
+                android:layout_marginLeft="20sp"
+                android:drawableStart="@drawable/custom_senha_icon"
+                android:drawablePadding="12sp"
+                android:paddingStart="12sp"
+                android:paddingBottom="12sp"
+                android:paddingTop="12sp"
+                android:background="@drawable/custom_input"/>
+
+            <EditText
+                android:id="@+id/txtConfirmarSenhaCadastro" android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Confirmar Senha"
+                android:layout_marginTop="15sp"
+                android:textSize="24sp"
+                android:inputType="textPassword"
+                android:layout_marginRight="20sp"
+                android:layout_marginLeft="20sp"
+                android:drawableStart="@drawable/custom_senha_icon"
+                android:drawablePadding="12sp"
+                android:paddingStart="12sp"
+                android:paddingBottom="12sp"
+                android:paddingTop="12sp"
+                android:background="@drawable/custom_input"/>
+
+            <Button
+                android:id="@+id/bt_cadastrar" android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/turquesa"
+                android:text="Cadastrar"
+                android:textSize="26sp"
+                android:layout_marginLeft="30sp"
+                android:layout_marginRight="30sp"
+                android:layout_marginTop="25sp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
