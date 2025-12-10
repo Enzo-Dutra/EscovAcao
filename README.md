@@ -21,7 +21,7 @@ Causa: Falta de educação adequada e acompanhamento parental na rotina de higie
 
 Consequência: Dor, desconforto e prejuízos no desenvolvimento da dentição permanente.
 
-✨ Funcionalidades PrincipaisO aplicativo é penaaso na experiência da crinaça enquanto usuária!
+✨ Funcionalidades Principais: O aplicativo é pensado na experiência da crinaça enquanto usuária!
 
 🧸 Para as Crianças:
 
