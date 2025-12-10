@@ -9,7 +9,7 @@ O objetivo principal é combater a alta incidência de cáries e doenças bucais
 
 🎯 Objetivo de Desenvolvimento Sustentável (ODS)
 
-Este projeto está diretamente alinhado à ODS 3 - Saúde e Bem-Estar da ONU: "Assegurar uma vida saudável e promover o bem-estar para todos, em todas as idades".Ao educar crianças desde cedo, investimos na prevenção de problemas futuros de alimentação, fala e socialização decorrentes de doenças bucais.
+Este projeto está diretamente alinhado à ODS 3 - Saúde e Bem-Estar da ONU: "Assegurar uma vida saudável e promover o bem-estar para todos, em todas as idades". Ao educar crianças desde cedo, investimos na prevenção de problemas futuros de alimentação, fala e socialização decorrentes de doenças bucais.
 
 🛑 O Problema
 
